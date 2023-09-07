@@ -13,4 +13,4 @@
 6. For supporting Cross-Origin Resource Sharing and filedoc  cors and fileupload middleware added
 7. Morgan for logger also used  for displaying logger info on the console
 8. Worked on use of populate ,virtuals and aggreagator function also utilized 
-9. Worked on Schema.static.methods, Schema.methods and Schema.pre(save,fn()) and Schema.post() methods are also explored and handled
+9. Worked on Schema.static.methods, Schema.methods and Schema.pre(save,fn()) and Schema.post() methods are also explored and handled/
