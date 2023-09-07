@@ -20,8 +20,8 @@ const orderSchema = mongoose.Schema({
   },
   status:{
     type:String,
-    enum:['Success','Failure','Pending'],
-    default:'Pending'
+    enum:['Success','Failure','Pending', 'On-Cart'],
+    default:'On-Cart'
   },
   user:{
     type:mongoose.Schema.Types.ObjectId,
