@@ -1,11 +1,8 @@
 const mongoose = require('mongoose');
+const order = require('./cart.model');
 
 const orderSchema = mongoose.Schema({
-  cartItems: [{
-    type: mongoose.Schema.ObjectId,
-    ref: 'cart',
-    required: true
-  }],
+  cartItems: [order.schema],
   tax:{
     type: Number,
     required: true
